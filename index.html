@@ -20,14 +20,13 @@
 
   <body>
     <section class="top-section">
-      <header>
-        <div class="container">
-          <img 
-            src="./saas-project-assets/project_logo/logo.svg" 
-            alt="Front" 
-            class="logo"
-          >
-          <nav id="topNav" class="navbar nav">
+      <nav id="topNav" class="navbar nav">
+          <div class="container">
+            <img 
+              src="./saas-project-assets/project_logo/logo.svg" 
+              alt="Front" 
+              class="logo"
+            >
             <ul class="ul-navList">
               <li><a href="#">Home</a></li>
               <li><a class="featured-link" href="#">Features</a></li>
@@ -35,11 +34,10 @@
               <li><a href="#">Pricing</a></li>
               <li><a href="#">Hire us</a></li>
             </ul>
-            <a href="#" class="btn">Buy Now</a>
-          </nav>
-          
-        </div>
-      </header>
+            <a href="#" class="btn">Buy Now</a>   
+          </div>
+      </nav>
+      
       <div class="container">
         <div class="heroSection">
           <div class="left-part">
@@ -88,5 +86,60 @@
       </div>
     </section>
 
+    <section class="key-benefits">
+      <div class="container">
+        <div class="benefits-title">
+          <div>Key Benefits</div>
+          <p>Design faster with a growing array of beautiful templates</p>
+        </div>
+
+        <div class="benefits-list">
+          <div class="benefit-item">
+            <img src="./saas-project-assets/icons/responsive.svg" alt="Responsive">
+            <div>Responsive</div>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+
+          <div class="benefit-item">
+            <img src="./saas-project-assets/icons/customizable.svg" alt="Customizable">
+            <div>Customizable</div>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+
+          <div class="benefit-item">
+            <img src="./saas-project-assets/icons/premium.svg" alt="Premium">
+            <div class="title">
+              <div>Premium</div>
+              <a href="#" class="btn sketch">sketch</a>
+            </div>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+
+          <div class="benefit-item">
+            <img src="./saas-project-assets/icons/documentation.svg" alt="Documentation">
+            <div>Documentation</div>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <a href="#" class="learn-more">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <script>
+        const nav = document.getElementById("topNav");
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add("sticky")
+        } else {
+          nav.classList.remove("sticky");
+        }
+      }
+    </script>
   </body>
 </html>
