@@ -490,3 +490,101 @@ nav .logo {
 }
 
 .brands .container .brands-flex img { height: 40px; }
+
+.pricing .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 120px;
+}
+
+.pricing .container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 0px;
+}
+
+.pricing .container .title h2 {
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  color: var(--black);
+}
+
+.pricing .container .title p {
+  font-size: 16px;
+  text-align: center;
+  color: var(--color-light);
+}
+
+.pricing-flex {
+  display: flex;
+  align-items: flex-start;
+  padding: 0px 44px;
+  gap: 30px;
+}
+
+.pricing-flex .plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 50px;
+  width: 370px;
+  background: var(--white);
+  border: 1px solid var(--white);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-flex .plan .header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 290px;
+}
+
+.pricing-flex .plan .header .plan-price {
+  display: flex;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 7px;
+  height: 61px;
+}
+
+.pricing-flex .plan .header .plan-price h2 {
+  font-weight: 500;
+  font-size: 50px;
+  color: var(--black);
+  margin: 0px;
+}
+
+.pricing-flex .plan .header .plan-price .plan-period {
+  display: flex;
+  align-items: flex-start;
+  padding: 0px 0px 9px;
+  gap: 7px;
+}
+
+.plan-period {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: var(--color-light);
+}
+ 
+.plan-period p { margin: 0px; }
+
+.pricing-flex .plan .header .plan-divider {
+  width: 100%;
+  border: 1px solid #8d8d8d;
+}
+
+.pricing-flex .plan .header p {
+  width: 290px;
+  font-size: 16px;
+  color: var(--color-light);
+}
