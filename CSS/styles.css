@@ -379,3 +379,114 @@ nav .logo {
   color: var(--black);
   line-height: 20px;
 }
+
+.hubspot .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 560px;
+  padding: 0px;
+  gap: 60px;
+}
+
+.hubspot .container .left-part { 
+  position: relative;
+  width: 452px; 
+}
+
+.hubspot .container .left-part .background-dots {
+  width: 200px;
+  position: absolute;
+  left: 20px;
+  top: 111px;
+}
+
+.hubspot .container .left-part .christina-photo {
+  width: 371px;
+  position: absolute;
+  left: 81px;
+  top: 0px;
+}
+
+.hubspot .container .right-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 30px 0px 0px;
+  gap: 50px;
+  width: 482px;
+  height: 560px;
+}
+
+.hubspot .container .right-part .description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+}
+
+.hubspot .container .right-part .description img { width: 100px; }
+
+.hubspot .container .right-part .description p {
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--black);
+}
+
+.hubspot .container .right-part .person {
+  width: 147px;
+  height: 143px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 20px 100px 0px;
+  gap: 4px;
+}
+
+.hubspot .container .right-part .person h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--black);
+  margin: 0;
+}
+
+.hubspot .container .right-part .person p {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-light);
+  margin: 0;
+}
+
+.brands .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 80px;
+  gap: 45px;
+}
+
+.brands .container .trusted {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  gap: 10px;
+}
+
+.brands .container .trusted h2 {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #5f6368;
+}
+
+.brands .container .brands-flex {
+  display: flex;
+  align-items: flex-start;
+  padding: 0px 30px;
+  gap: 100px;
+}
+
+.brands .container .brands-flex img { height: 40px; }
