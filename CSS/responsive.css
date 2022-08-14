@@ -1,0 +1,131 @@
+@media screen and (max-width: 768px) {
+  [aria-controls="navbarDropdown"] {
+    display: block;
+  }
+
+  [aria-expanded="false"] ~ .nav-mobile {
+    display: none;
+  }
+
+  [aria-expanded="true"] ~ .nav-mobile {
+    display: block;
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    height: 750px;
+    width: 100%;
+    background-color: var(--white);
+    padding: 0px;
+  }
+
+  [aria-expanded="true"] ~ .nav-mobile ul {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  [aria-expanded="true"] ~ .nav-mobile a.btn {
+    position: absolute;
+    top: 100px;
+    left: 41%;
+    right: 41%;
+
+  }
+
+  .top-section {
+    height: 800px;
+  }
+
+  .heroSection {
+    flex-direction: column;
+    height: 750px;
+    align-items: center;
+  }
+
+  .heroSection .title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .heroSection .actions { justify-content: center; }
+
+  .benefits-list { flex-wrap: wrap; }
+  .benefit-item { width: 315px;}
+
+  .banner-section-content { flex-direction: column;}
+  .banner-section-content .left-part { height: 300px; }
+  .banner-section-content .left-part div { text-align: center;}
+
+  .banner-section-content .left-part .actions {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .bullet .top .left-wing, 
+  .bullet .top .right-wing { width: 50.5px; }
+
+  .banner-frame .play-button {
+    top: 45%;
+    left: 45%;
+  }
+
+  .hubspot .container { 
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hubspot .container .left-part .christina-photo { left: 40%; }
+  .hubspot .container .left-part .background-dots { left: 28%; }
+  .hubspot .container .left-part { height: 450px; }
+
+  .hubspot .container .right-part {
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hubspot .container .right-part .description img { margin: 0px auto;}
+  .brands .container .brands-flex img { height: 20px; }
+  
+  .pricing-flex { 
+    flex-direction: column;
+    margin: 0px auto;
+  }
+
+  .pricing-flex .plan { width: 100%; }
+
+  .pricing-flex .plan-feature-item {
+    width: 266px;
+    height: 300px;
+  }
+
+  .hire-us .container { flex-direction: column; }
+
+  .hire-us .container .left-part {
+    flex-direction: row;
+    padding: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hire-us .container .left-part .top { width: 300px;} 
+  .hire-us .container .left-part .bottom .person { width: 150px; }
+
+  .hire-us .container .right-part { width: 100%; }
+  .hire-us .container .right-part form { width: 100%; }
+
+  .frame-12 { 
+    flex-wrap: wrap; 
+    width: 100%;
+  }
+
+  .frame-121 { width: 150px; }
+}
