@@ -198,6 +198,7 @@ nav .logo {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
 
+.benefit-item:hover { box-shadow: 0px 10px 20px var(--color-blue); }
 .benefit-item img { width: 50px; }
 
 .benefit-item .title {
